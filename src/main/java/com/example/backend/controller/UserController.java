@@ -8,6 +8,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.validation.Errors;
 
 @RestController
+@CrossOrigin(origins = "http://43.203.123.198:3000")
 @RequestMapping("/api/users")
 @Validated  // Spring Validation을 사용하도록 설정
 public class UserController {
